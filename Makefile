@@ -1,4 +1,4 @@
-PROJECT_NAME := TRB_u8g2_ESP32
+PROJECT_NAME := TRB_u8g2_esp_idf
 UNIT_TEST_APP :=	$(IDF_PATH)/tools/unit-test-app
 # include unity component for unit testing
 EXTRA_COMPONENT_DIRS=	$(UNIT_TEST_APP)/components

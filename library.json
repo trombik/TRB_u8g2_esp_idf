@@ -1,0 +1,35 @@
+{
+    "name": "TRB_u8g2_esp_idf",
+    "description": "u8g2 package for ESP32 esp-idf",
+    "keywords": "u8g2,esp-idf,esp32",
+    "authors": {
+        "name": "Tomoyuki Sakurai",
+        "email": "y@trombik.org",
+        "url": "http://www.trombik.org",
+        "maintainer": true
+    },
+    "version": "20180814",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/trombik/TRB_u8g2_esp_idf.git"
+    },
+    "license": "ISC",
+    "export": {
+        "exclude": [ "docs" ]
+    },
+    "frameworks": [
+        "espidf"
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "build": {
+        "extraScript": "prebuild.py"
+    },
+    "dependencies": [
+    ],
+    "examples": [
+        "examples/*/src/*.c",
+        "examples/*/src/*.ino"
+    ]
+}
