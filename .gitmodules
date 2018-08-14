@@ -1,0 +1,6 @@
+[submodule "src/vendor/u8g2"]
+	path = src/vendor/u8g2
+	url = https://github.com/olikraus/u8g2.git
+[submodule "src/vendor/esp32-snippets"]
+	path = src/vendor/esp32-snippets
+	url = https://github.com/nkolban/esp32-snippets.git
