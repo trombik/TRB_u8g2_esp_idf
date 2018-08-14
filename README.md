@@ -1,5 +1,7 @@
 # `TRB_u8g2_esp_idf`
 
+[![Build Status](https://travis-ci.com/trombik/TRB_u8g2_esp_idf.svg?branch=master)](https://travis-ci.com/trombik/TRB_u8g2_esp_idf)
+
 Packaged version of [`u8g2`](https://github.com/olikraus/u8g2) and
 [HAL](https://github.com/nkolban/esp32-snippets/tree/master/hardware/displays/U8G2)
 for `esp-idf` users.
